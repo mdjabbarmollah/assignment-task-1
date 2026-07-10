@@ -1,8 +1,9 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -52,17 +53,11 @@ nav {
   align-items: center;
   justify-content: center;
   font-family: "Inter", sans-serif;
-
 }
-
-
 
 .banner-section {
   position: relative;
   text-align: center;
-
-
-
 }
 
 .banner-section h2 p {
@@ -168,27 +163,29 @@ nav {
 
 .sp {
   color: #575757;
-padding-top: 12px;
+  padding-top: 12px;
 }
 
 .sh {
   font-size: 48px;
-  
+
 }
+
 /* securee card section  */
-.secure{
+.secure {
   padding: 0px 60px 80px 80px;
   width: 1440px;
   margin: 0 auto;
 
 }
+
 .sbox {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   font-family: "Inter", sans-serif;
   gap: 24px;
   padding-top: 48px;
-  
+
 }
 
 
@@ -196,17 +193,17 @@ padding-top: 12px;
   border: 1px solid #E5E7EB;
   border-radius: 12px;
   padding: 24px;
-width: 370px;
+  width: 370px;
 }
 
 
 
 .su {
   color: #333333;
-    margin: 32px 0;
-    border-top: 1px solid #E5E7EB;
-      padding-top: 24px;
-      padding-left: 16px;
+  margin: 32px 0;
+  border-top: 1px solid #E5E7EB;
+  padding-top: 24px;
+  padding-left: 16px;
 }
 
 .su li {
@@ -217,6 +214,7 @@ width: 370px;
 .pp {
   color: #575757;
 }
+
 .ph {
   font-size: 44px;
   font-weight: bold;
@@ -225,24 +223,30 @@ width: 370px;
 .q {
   font-weight: 500;
 }
+
 /* secoend card customization */
-.v{
+.v {
   background-color: #0D1B2A;
 }
-.vh{
- color: #ffff; 
+
+.vh {
+  color: #ffff;
 }
-.vt{
+
+.vt {
   color: #93C5FD;
 
 }
-.vq{
-  color: #bfbaba ;
+
+.vq {
+  color: #bfbaba;
 }
-.vl{
-color: #ffff;
+
+.vl {
+  color: #ffff;
 
 }
+
 .sb1 {
   font-size: 14px;
   font-weight: 700;
@@ -253,27 +257,56 @@ color: #ffff;
   border-radius: 8px;
   padding: 11px;
 }
-.sb2{
+
+.sb2 {
   font-size: 14px;
-    font-weight: 700;
-    color: white;
-    border: 1px solid #2563EB;
-    background-color: #2563EB;
-    width: 100%;
-    border-radius: 8px;
-    padding: 11px;
+  font-weight: 700;
+  color: white;
+  border: 1px solid #2563EB;
+  background-color: #2563EB;
+  width: 100%;
+  border-radius: 8px;
+  padding: 11px;
 }
+
 .sb3 {
   font-size: 14px;
   font-weight: 700;
   color: black;
-  border: 1px solid  cornsilk;
+  border: 1px solid cornsilk;
   background-color: bisque;
   width: 100%;
   border-radius: 8px;
   padding: 11px;
 }
+
 /* 3rd card customization */
-.v3{
+.v3 {
   background-color: aliceblue;
+}
+
+/* footer sectionn */
+.message {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 40px;
+  padding: 10px 90px;
+}
+
+.fl {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.f-lo img {
+  width: 30px;
+}
+
+.f-u {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px 50px;
 }
