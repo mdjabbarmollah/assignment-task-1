@@ -1,3 +1,279 @@
-body{
-  background-color: hotpink;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  background-color: white;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+  color: #575757;
+  font-family: "Arimo", sans-serif;
+
+}
+
+.cbtn {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: #1D4ED8;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+
+.banner img {
+  object-fit: cover;
+  height: 786px;
+  width: 100%;
+}
+
+.banner {
+  background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 100%);
+}
+
+.banner-text {
+  color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+
+}
+
+
+
+.banner-section {
+  position: relative;
+  text-align: center;
+
+
+
+}
+
+.banner-section h2 p {
+  text-align: center;
+}
+
+.banner-text h2 {
+  font-size: 80px;
+  width: 959px;
+  margin-bottom: 20px;
+}
+
+.banner-text p {
+  font-size: 22px;
+  width: 800px;
+  margin-bottom: 350px;
+
+}
+
+.cbtn-2 {
+
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+  background-color: #1D4ED8;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 24px;
+}
+
+/* card section  */
+.meet {
+  font-size: 56px;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.card-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+
+}
+
+.card {
+
+  border: 1px solid #E5E7EB;
+  border-radius: 10px;
+}
+
+.card-text {
+  padding: 15px
+}
+
+.card img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.speaker {
+  padding: 90px 80px;
+  width: 1440px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+
+}
+
+.skill {
+  font-size: 12px;
+  font-weight: 600;
+  color:
+    #2563EB;
+  font-family: "Inter",
+    sans-serif;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Inter",
+    sans-serif;
+
+}
+
+.post {
+  color:
+    #575757;
+  font-size: 14px;
+  font-family: "Inter",
+    sans-serif;
+}
+
+/* secure section  */
+.secure-top {
+  text-align: center;
+  font-weight: bold;
+
+}
+
+.sp {
+  color: #575757;
+padding-top: 12px;
+}
+
+.sh {
+  font-size: 48px;
+  
+}
+/* securee card section  */
+.secure{
+  padding: 0px 60px 80px 80px;
+  width: 1440px;
+  margin: 0 auto;
+
+}
+.sbox {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-family: "Inter", sans-serif;
+  gap: 24px;
+  padding-top: 48px;
+  
+}
+
+
+.price-card {
+  border: 1px solid #E5E7EB;
+  border-radius: 12px;
+  padding: 24px;
+width: 370px;
+}
+
+
+
+.su {
+  color: #333333;
+    margin: 32px 0;
+    border-top: 1px solid #E5E7EB;
+      padding-top: 24px;
+      padding-left: 16px;
+}
+
+.su li {
+  font-size: 14px;
+  padding: 6px;
+}
+
+.pp {
+  color: #575757;
+}
+.ph {
+  font-size: 44px;
+  font-weight: bold;
+}
+
+.q {
+  font-weight: 500;
+}
+/* secoend card customization */
+.v{
+  background-color: #0D1B2A;
+}
+.vh{
+ color: #ffff; 
+}
+.vt{
+  color: #93C5FD;
+
+}
+.vq{
+  color: #bfbaba ;
+}
+.vl{
+color: #ffff;
+
+}
+.sb1 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #2563EB;
+  border: 1px solid #2563EB;
+  background-color: white;
+  width: 100%;
+  border-radius: 8px;
+  padding: 11px;
+}
+.sb2{
+  font-size: 14px;
+    font-weight: 700;
+    color: white;
+    border: 1px solid #2563EB;
+    background-color: #2563EB;
+    width: 100%;
+    border-radius: 8px;
+    padding: 11px;
+}
+.sb3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: black;
+  border: 1px solid  cornsilk;
+  background-color: bisque;
+  width: 100%;
+  border-radius: 8px;
+  padding: 11px;
+}
+/* 3rd card customization */
+.v3{
+  background-color: aliceblue;
 }
