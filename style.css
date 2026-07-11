@@ -31,14 +31,12 @@ nav {
   padding: 10px 12px;
 }
 
+/* banner section  */
+
 .banner img {
   object-fit: cover;
   height: 786px;
   width: 100%;
-}
-
-.banner {
-  background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 100%);
 }
 
 .banner-text {
@@ -58,6 +56,7 @@ nav {
 .banner-section {
   position: relative;
   text-align: center;
+  
 }
 
 .banner-section h2 p {
@@ -90,6 +89,7 @@ nav {
 }
 
 /* card section  */
+
 .meet {
   font-size: 56px;
   font-weight: bold;
@@ -123,7 +123,7 @@ nav {
 
 .speaker {
   padding: 90px 80px;
-  width: 1440px;
+max-width: 1440px;
   margin: 0 auto;
   margin-bottom: 50px;
 
@@ -173,8 +173,8 @@ nav {
 
 /* securee card section  */
 .secure {
-  padding: 0px 60px 80px 80px;
-  width: 1440px;
+  padding: 80px 80px;
+  max-width: 1100px;
   margin: 0 auto;
 
 }
@@ -193,7 +193,7 @@ nav {
   border: 1px solid #E5E7EB;
   border-radius: 12px;
   padding: 24px;
-  width: 370px;
+  width: 100%px;
 }
 
 
@@ -284,6 +284,204 @@ nav {
 .v3 {
   background-color: aliceblue;
 }
+/* 
+
+   Hackathon Section Styles
+Ai task
+
+  */ 
+ .hackathon-section {
+   background-color: #0F172A;
+   border: 1px solid #1D4ED8;
+   border-radius: 20px;
+   overflow: hidden;
+   max-width: 900px;
+   margin: 60px auto;
+ }
+
+ .hack-header {
+   padding: 48px 40px 36px;
+   text-align: center;
+ }
+
+ .hack-date-badge {
+   display: inline-block;
+   background-color: #1E293B;
+   color: #38BDF8;
+   font-size: 12px;
+   font-weight: 600;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
+   padding: 6px 16px;
+   border-radius: 20px;
+   margin-bottom: 18px;
+ }
+
+ .hack-heading {
+   font-size: 32px;
+   font-weight: 700;
+   color: #FFFFFF;
+   margin: 0 0 10px;
+ }
+
+ .hack-subtitle {
+   color: #94A3B8;
+   font-size: 14px;
+   max-width: 520px;
+   margin: 0 auto 24px;
+ }
+
+ .hack-prize {
+   font-size: 30px;
+   font-weight: 700;
+   color: #FBBF24;
+   margin: 0;
+ }
+
+ .hack-prize-label {
+   font-size: 12px;
+   color: #64748B;
+   margin: 4px 0 0;
+   letter-spacing: 0.04em;
+   text-transform: uppercase;
+ }
+
+ .hack-body {
+   background-color: #FFFFFF;
+   padding: 40px;
+ }
+
+ .hack-label {
+   font-size: 13px;
+   font-weight: 700;
+   color: #0F172A;
+   text-transform: uppercase;
+   letter-spacing: 0.05em;
+   margin: 0 0 16px;
+ }
+
+ .organizer-grid,
+ .task-grid {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 16px;
+ }
+
+ .organizer-grid {
+   margin-bottom: 36px;
+ }
+
+ .organizer-card {
+   border: 1px solid #E5E7EB;
+   border-radius: 12px;
+   padding: 18px;
+   text-align: center;
+ }
+
+ .avatar {
+   width: 44px;
+   height: 44px;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-weight: 600;
+   margin: 0 auto 10px;
+ }
+
+ .avatar-blue {
+   background-color: #DBEAFE;
+   color: #1D4ED8;
+ }
+
+ .avatar-green {
+   background-color: #DCFCE7;
+   color: #15803D;
+ }
+
+ .avatar-amber {
+   background-color: #FEF3C7;
+   color: #B45309;
+ }
+
+ .org-name {
+   font-weight: 600;
+   font-size: 14px;
+   color: #111827;
+   margin: 0 0 2px;
+ }
+
+ .org-role {
+   font-size: 12px;
+   color: #6B7280;
+   margin: 0;
+ }
+
+ .task-grid {
+   margin-bottom: 32px;
+ }
+
+ .task-card {
+   background-color: #F8FAFC;
+   border: 1px solid #E5E7EB;
+   border-radius: 14px;
+   padding: 22px;
+ }
+
+ .task-level {
+   font-size: 12px;
+   font-weight: 700;
+   color: #38BDF8;
+   text-transform: uppercase;
+   letter-spacing: 0.04em;
+   margin: 0 0 8px;
+ }
+
+ .task-title {
+   font-weight: 600;
+   font-size: 15px;
+   color: #111827;
+   margin: 0 0 8px;
+ }
+
+ .task-desc {
+   font-size: 13px;
+   color: #6B7280;
+   line-height: 1.6;
+   margin: 0 0 10px;
+ }
+
+ .task-prize {
+   font-size: 13px;
+   font-weight: 600;
+   color: #0F172A;
+   margin: 0;
+ }
+
+ .hack-cta-wrap {
+   text-align: center;
+ }
+
+ .hack-cta {
+   background-color: #0F172A;
+   color: #FFFFFF;
+   font-weight: 600;
+   font-size: 15px;
+   border: none;
+   border-radius: 10px;
+   padding: 14px 36px;
+   cursor: pointer;
+ }
+
+ @media (max-width: 768px) {
+
+   .organizer-grid,
+   .task-grid {
+     grid-template-columns: 1fr;
+   }
+ }
+
+
 
 /* footer sectionn */
 .message {
