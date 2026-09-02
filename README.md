@@ -3,6 +3,7 @@
 A responsive web development assignment built to practice core HTML, CSS, and structural design.
 
 ## 🚀 Live Preview
+![Project Screenshot](screenshot.png)
 - **Live URL:** [View Live Site](https://mdjabbarmollah.github.io/assignment-task-1/)
 
 ## 🛠️ Tech Stack & Tools
